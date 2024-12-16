@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Calificaciones</h1>
+    <label>Nota: </label>
+    <input type="text" id="nota" placeholder="Pon una nota entre 0 y 10">
+    <button onclick="calcular()">Calcular</button>
+    <p id="salida"></p>
+
+    <script>
+        function calcular() {
+            let nota = document.getElementById('nota').value;
+            let texto ="La nota es un ";
+            
+            try {
+
+                if(isNaN(nota)) throw "Debes ingresar un número";
+                if (nota < 0 || nota > 10) throw "La nota debe estar entre 0 y 10";
+                
+                nota = Number(nota);
+                if (nota < 5){
+                    document.getElementById('salida').innerHTML = texto+nota+" el alumno a suspendido."
+                }else {
+                    document.getElementById('salida').innerHTML = texto+nota+" el alumno aprobó.";
+                }
+                                
+            } catch (error) {
+                document.getElementById('salida').innerHTML = texto+nota;
+            }
+        }
+           
+    
+    </script>
+
+    
+</body>
+</html>

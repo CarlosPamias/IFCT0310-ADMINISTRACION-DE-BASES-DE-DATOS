@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p id="Salida"> </p>
+    <script>
+        let fecha = new Date();
+        let diasemana = fecha.getTime();
+        let texto = "";
+        let mensaje = document.getElementById("salida");
+
+        switch (diasemana) {
+            case 0:
+                texto = "Domingo";
+                break;
+                case 1:
+                texto = "Domingo";
+                break;
+            
+        }
+        mensaje.innerHTML = texto;
+    </script>
+</body>
+</html>
