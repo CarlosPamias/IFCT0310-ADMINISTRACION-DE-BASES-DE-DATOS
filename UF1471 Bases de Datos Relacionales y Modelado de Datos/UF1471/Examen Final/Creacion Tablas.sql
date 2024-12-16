@@ -1,0 +1,33 @@
+-- TABLA: GENERO
+CREATE TABLE GENERO (
+    Id_genero SERIAL PRIMARY KEY,
+    Descripcion VARCHAR(50) NOT NULL
+);
+
+-- TABLA: PELICULA
+CREATE TABLE PELICULA (
+    ID_pelicula SERIAL PRIMARY KEY,
+    Titulo VARCHAR(100) NOT NULL,
+    Año_estreno INT NOT NULL,
+    Id_genero INT NOT NULL,
+    Duracion INT NOT NULL,
+    FOREIGN KEY (Id_genero) REFERENCES GENERO(Id_genero)
+);
+
+-- TABLA: ACTORES
+CREATE TABLE ACTORES (
+    Id_actor SERIAL PRIMARY KEY,
+    Nombre VARCHAR(50) NOT NULL,
+    Apellidos VARCHAR(50) NOT NULL,
+    Fecha_Nacimiento DATE NOT NULL
+);
+
+-- TABLA: PAPEL (RELACIÓN ENTRE PELICULA Y ACTORES)
+CREATE TABLE PAPEL (
+    ID_pelicula INT NOT NULL,
+    Id_actor INT NOT NULL,
+    Descripcion VARCHAR(50),
+    PRIMARY KEY (ID_pelicula, Id_actor),
+    FOREIGN KEY (ID_pelicula) REFERENCES PELICULA(ID_pelicula),
+    FOREIGN KEY (Id_actor) REFERENCES ACTORES(Id_actor)
+);
