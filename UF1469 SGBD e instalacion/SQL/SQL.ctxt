@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=SQL
+comment1.params=
+comment1.target=java.sql.Connection\ conectar()
+comment2.params=conexion\ consulta
+comment2.target=void\ ejecutarConsulta(java.sql.Connection,\ java.lang.String)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
