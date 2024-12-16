@@ -1,0 +1,21 @@
+body{
+    background-color: #ebe3e3;
+
+}
+
+#listaAnimales li{
+    display: inline-block;
+}
+  
+#listaAnimales a{
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: yellow;
+    background-color: rgb(63, 60, 60);
+}
+#listaAnimales a:hover{
+    color: white;
+    background-color: black;
+}

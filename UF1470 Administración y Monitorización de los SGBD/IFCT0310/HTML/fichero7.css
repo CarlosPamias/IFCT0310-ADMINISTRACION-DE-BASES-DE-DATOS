@@ -1,0 +1,46 @@
+header,main,footer{
+    width: 90%;
+    margin: auto;
+}
+main{
+    /* background-color: cornflowerblue; */
+}
+
+
+header{
+    
+    background-color: azure;
+    display: flex;
+    grid-template-columns: auto auto;
+   
+}
+#logo{
+    /* background-color: burlywood; */
+    width: 40%;
+    height: 100px;
+    line-height: 100px;
+}
+.logo{
+    width: 40%;
+    vertical-align: middle;
+}
+#menu{
+    /* background-color: chartreuse; */
+    width: 60%;
+    text-align:center;
+}
+
+#menu a{
+    border: 1px solid black;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(237, 231, 231);
+    margin-left: 15px;
+    
+}
+#menu a:hover{
+    color: red;
+    background-color: black;
+}

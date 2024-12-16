@@ -1,0 +1,30 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contenedor{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid #666;
+    background-color: #ccc; */
+
+}
+h1{
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps; /* Efectgo de versalitas*/
+    /* display: inline; */
+}
+.pregunta{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.respuesta{
+    color: darkblue;
+    margin-bottom: 40px;
+}
+.textoIngles{
+    font-style: italic;
+    u
+}

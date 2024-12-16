@@ -1,0 +1,12 @@
+header, main, footer {
+    width: 80%;
+    margin: auto;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+}
+header,footer{
+    height: 100px;
+}
+main{
+    min-height: 400px;
+}

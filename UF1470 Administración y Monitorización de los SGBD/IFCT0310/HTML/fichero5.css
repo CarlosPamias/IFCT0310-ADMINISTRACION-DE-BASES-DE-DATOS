@@ -1,0 +1,22 @@
+#usuarios{
+    border: 1px solid black;
+    width: 300px;
+}
+#usuarios td, th{
+    border: 1px solid black;
+    width: 50%;
+}
+#usuarios td{
+    background-color: brown;
+    color: white;
+}
+#usuarios tr:nth-child(even){
+    background-color: aquamarine;
+}
+#usuarios tr:nth-child(odd){
+    background-color: rgb(41, 199, 43);
+}
+caption{
+    background-color: black;
+    color: rgb(213, 196, 196);
+}
