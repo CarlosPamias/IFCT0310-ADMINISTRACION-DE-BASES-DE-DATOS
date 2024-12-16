@@ -1,0 +1,7 @@
+ID Empleado | Nombre Completo  | Departamento | Salario 
+--------------------------------------------------------
+001         | Juan Pérez       | Ventas       | 2500
+002         | María García     | Marketing    | 2800
+003         | Carlos López     | Finanzas     | 3200
+004         | Ana Martínez     | Recursos Hum | 3000
+005         | Javier Rodríguez | TI           | 3500

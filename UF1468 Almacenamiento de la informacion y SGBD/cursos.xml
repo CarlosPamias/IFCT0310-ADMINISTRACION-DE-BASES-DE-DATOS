@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cursosPrivados>
+    <cursosEmpresa>
+		<curso>
+            <color>#EBF5F5</color>
+            <modalidad>Teleformación</modalidad>
+            <nombre>CT1161 IRPF</nombre>
+            <objetivos>Describir las exigencias formales de cada uno de los regímenes fiscales de estimación de bases, especificando las ventajas e inconvenientes de cada uno.</objetivos>
+            <etiquetas>Teleformación</etiquetas>
+			<duracion>25h.</duracion>
+            <inicio>31/01/2022</inicio>
+            <fin>09/03/2022</fin>
+            <horario>Teleformación</horario>
+			<precio>150€</precio>
+            <temario>CT1161.pdf</temario>
+            <icono>nuevo</icono>
+        </curso> 
+	 </cursosEmpresa>
+     
+     <cursosInformatica>
+		 <curso>
+            <color>#F4FDFD</color>
+            <modalidad>Aula Virtual</modalidad>
+            <nombre>Ciberseguridad en Internet y dispositivos móviles</nombre>
+            <objetivos>Protege los equipos de la red frente a amenazas y minimiza los riesgos de tu sistema de información: criptografía, certificación digital, redes privadas virtuales, análisis de vulnerabilidades y mucho más.</objetivos>
+            <etiquetas>Seguridad,Aula Virtual</etiquetas>
+            <duracion>30h.</duracion>
+            <inicio>25/01/2022</inicio>
+            <fin>10/03/2022</fin>
+            <horario>Martes y jueves de 16 a 18 h</horario>
+			 <precio>180€</precio>
+            <temario>ciber_seg.pdf</temario>
+            <icono>nuevo</icono>
+			 <nota></nota>
+         </curso>
+		 
+		 <curso>
+            <color>#F4FDFD</color>
+            <modalidad>Aula Virtual</modalidad>
+            <nombre>Análisis de datos y creación de modelos con Microsoft Excel</nombre>
+            <objetivos>Este curso permite conocer las herramientas más avanzadas para el análisis de datos con Microsoft Excel. Podrá importar, modificar, modelar, visualizar y crear informes.</objetivos>
+            <etiquetas>Aula virtual,Ofimatica,Analisis de datos</etiquetas>
+            <duracion>20h.</duracion>
+            <inicio>25/01/2022</inicio>
+            <fin>24/02/2022</fin>
+            <horario>Martes y Jueves de 16 a 18 h</horario>
+			 <precio>120€</precio>
+            <temario>ana_ex</temario>
+            <icono>nuevo</icono>
+			 <nota></nota>
+        </curso>
+		 	 
+		<curso>
+            <color>#F4FDFD</color>
+            <modalidad>Aula Virtual</modalidad>
+            <nombre>Power BI Desktop (Business Intelligence)</nombre>
+            <objetivos>Este curso es una iniciación al Power BI.
+El curso se realizará con Power BI Desktop (versión gratuita).
+Con este curso aprenderá a gestionar y analizar grandes cantidades de datos, a generar informes de dichos datos, a diseñar cuadros de mando para visualizar la información de la manera más adecuada</objetivos>
+            <etiquetas>Aula virtual, Ofimatica, Analisis</etiquetas>
+            <duracion>24h.</duracion>
+            <inicio>31/01/2022</inicio>
+            <fin>09/03/2022</fin>
+            <horario>Lunes Miércoles 16 a 18</horario>
+			 <precio>144€</precio>
+            <temario>power_BI.pdf</temario>
+            <icono>nuevo</icono>
+			 <nota></nota>
+		</curso>
+		 <curso>
+            <color>#F4FDFD</color>
+            <modalidad>Aula Virtual</modalidad>
+            <nombre>Edición Raw</nombre>
+            <objetivos>Aprende en este curso de forma fácil cómo gestionar los archivos directamente en Camera Raw para poder conseguir un resultado sorprendente en tus imágenes sin tener que pasar por Photoshop.
+Cómo software se explicará el proceso en Camera RAW, Lightroom y RAWTherapee.</objetivos>
+            
+            <etiquetas>Aula Virtual, Fotografía, Revelado</etiquetas>
+            <duracion>20h.</duracion>
+            <inicio>31/01/2022</inicio>
+            <fin>28/02/2022</fin>
+            <horario>Lunes Miércoles 16 a 18</horario>
+			 <precio>120€</precio>
+            <temario>Edicion_raw.pdf</temario>
+            <icono>nuevo</icono>
+			 <nota></nota>
+		</curso>
+		  <curso>
+            <color>#F4FDFD</color>
+            <modalidad>Presencial</modalidad>
+            <nombre>Fotografía Digital</nombre>
+            <objetivos>Aprende a usar una cámara, conoce sus ajustes y empieza a tomar fotografías de alta calidad.</objetivos>
+            
+            <etiquetas>Presencial, Salidas Fotograficas</etiquetas>
+            <duracion>20h.</duracion>
+            <inicio>25/01/2022</inicio>
+            <fin>17/02/2022</fin>
+            <horario>martes y jueves de 18:00 a 20h</horario>
+			 <precio>120€</precio>
+            <temario>fotografía_digital_20h.pdf</temario>
+            <icono>nuevo</icono>
+			 <nota>Serán 8 sesiones teorica/practicas y dos salidas fotograficas los sábados por la mañana</nota>
+        </curso>
+		  <curso>
+            <color>#F4FDFD</color>
+            <modalidad>Presencial</modalidad>
+            <nombre>Actic 1</nombre>
+            <objetivos>Preparación para la prueba oficial de la certificación ACTIC nivel básico</objetivos>
+            
+            <etiquetas>Presencial, Actic, certificación</etiquetas>
+            <duracion>70h.</duracion>
+            <inicio>17/01/2022</inicio>
+            <fin>09/02/2022</fin>
+            <horario>De lunes a viernes de 9:30 a 13:30.</horario>
+			 <precio>420€</precio>
+            <temario>continguts_del_model_actic__competencials_i_formatius_.pdf</temario>
+            <icono>nuevo</icono>
+			 
+        </curso>
+		 
+		 </cursosInformatica>
+	
+</cursosPrivados>

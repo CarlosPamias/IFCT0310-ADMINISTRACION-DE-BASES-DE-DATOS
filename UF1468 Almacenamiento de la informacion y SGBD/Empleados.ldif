@@ -1,0 +1,26 @@
+# Archivo LDIF para importar a LDAP
+
+# Definición de la entrada raíz "EMPRESA S.A"
+dn: dc=EMPRESA S.A,dc=com
+objectClass: dcObject
+objectClass: organization
+o: EMPRESA S.A
+
+# Definición de los nodos hijos para Juan
+dn: cn=Juan,dc=EMPRESA S.A,dc=com
+objectClass: inetOrgPerson
+cn: Juan
+mail: juan@empresa.com
+
+# Definición de los nodos hijos para María
+dn: cn=María,dc=EMPRESA S.A,dc=com
+objectClass: inetOrgPerson
+cn: María
+mail: maria@empresa.com
+
+# Definición de los nodos hijos para Pedro (bajo María)
+dn: cn=Pedro,cn=María,dc=EMPRESA S.A,dc=com
+objectClass: inetOrgPerson
+cn: Pedro
+mail: pedro@empresa.com
+manager: cn=María,dc=EMPRESA S.A,dc=com

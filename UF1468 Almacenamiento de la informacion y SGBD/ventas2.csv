@@ -1,0 +1,45 @@
+﻿codigo;cliente;producto;fecha;vendedor;zona;precio
+1;La TIA;Impressora;10/08/2008;Soler;Nord;300
+2;Exotic Liquids;CPU;11/09/2009;García;Sud;600
+3;New Orleans Cajun Delights;CPU;11/10/2009;García;Est;500
+4;Grandma Kelly's Homestead;CPU;11/11/2008;García;OEst;400
+5;Tokyo Traders;Impressora;13/12/2010;Soler;OEst;200
+6;Cooperativa de Quesos 'Las Cabras';Monitor;14/01/2011;Soler;OEst;200
+7;Mayumi's;Monitor;14/02/2012;Pons;Est;300
+8;Pavlova, Ltd.;Impressora;17/03/2012;Pons;Est;100
+9;Specialty Biscuits, Ltd.;CPU;19/04/2011;Pons;Nord;700
+10;PB Knäckebröd AB;CPU;20/05/2011;Soler;Nord;750
+11;Refrescos Americanas LTDA;Impressora;20/06/2012;Soler;Nord;200
+12;Heli Süßwaren GmbH & Co. KG;Monitor;10/08/2008;Pons;Sud;300
+13;Plutzer Lebensmittelgroßmärkte AG;Mòdem;11/09/2009;Pons;Sud;250
+14;Nord-Ost-Fisch Handelsgesellschaft mbH;Mòdem;11/10/2009;García;Sud;150
+15;Formaggi Fortini s.r.l.;Impressora;12/11/2010;García;Nord;125
+16;Norske Meierier;Portàrtil;12/12/2008;Pérez;Nord;300
+17;Bigfoot Breweries;PC;14/01/2010;García;Sud;600
+18;Svensk Sjöföda AB;PC;14/02/2010;García;Est;900
+19;Aux joyeux ecclésiastiques;PC;17/03/2009;García;OEst;400
+20;New England Seafood Cannery;Portàrtil;19/04/2011;Pérez;OEst;200
+21;Leka Trading;Monitor;20/05/2011;Pérez;OEst;400
+22;Lyngbysild;Monitor;20/06/2012;Ezcurra;Est;300
+23;Zaanse Snoepfabriek;Portàrtil;21/07/2012;Ezcurra;Est;200
+24;Ordenadores Karkki Oy;PC;13/08/2010;Ezcurra;Nord;100
+25;G'day, Mate;PC;11/12/2010;Soler;Nord;750
+26;Ma Maison Ordenadores;Portàrtil;12/01/2012;Soler;Nord;200
+27;Pasta Buttini s.r.l.;Monitor;11/02/2009;Ezcurra;Sud;450
+28;Escargots Nouveaux;Router;16/03/2010;Ezcurra;Sud;500
+29;Gai pâturage;Router;17/04/2010;García;Sud;550
+30;Forêts d'érables;Portàrtil;18/05/2011;García;Nord;600
+31;Refrescos Americanas LTDA;CPU;18/06/2013;Pons;Nord;700
+32;Heli Süßwaren GmbH & Co. KG;CPU;19/07/2013;Soler;Nord;750
+33;Plutzer Lebensmittelgroßmärkte AG;Impressora;26/08/2007;Soler;Nord;200
+34;Nord-Ost-Fisch Handelsgesellschaft mbH;Plotter;26/09/2008;Pons;Sud;300
+35;Formaggi Fortini s.r.l.;Mòdem;26/10/2013;Pons;Sud;250
+36;Norske Meierier;Mòdem;27/11/2013;Herrero;Sud;150
+37;Bigfoot Breweries;Impressora;27/12/2012;Herrero;Nord;125
+38;La TIA;Portàrtil;28/01/2009;Pérez;Nord;300
+39;Aux joyeux ecclésiastiques;Swicht;01/03/2014;Herrero;Sud;600
+40;New England Seafood Cannery;Swicht;02/04/2014;Herrero;Est;900
+41;Pasta Buttini s.r.l.;Swicht;03/05/2009;Herrero;OEst;400
+42;Escargots Nouveaux;Portàrtil;03/06/2013;Pérez;OEst;200
+43;Gai pâturage;Plotter;05/07/2013;Pérez;OEst;400
+44;Heli Süßwaren GmbH & Co. KG;Plotter;05/08/2008;Ezcurra;Est;300
